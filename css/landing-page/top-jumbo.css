@@ -27,15 +27,15 @@
   color: #4c44c1;
   position: relative;
   left: -22px;
-  top: 0;
+  top: 70px;
   z-index: 1;
 }
 #top-jumbo .left-side .info-container {
   position: relative;
-  top: -100px;
+  top: -12px;
 }
 #top-jumbo .left-side .info-container h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #6066f2;
   margin-bottom: 1.5rem;
 }
@@ -51,6 +51,7 @@
   border-radius: 50px;
   display: inline-block;
   padding: 10px;
+  margin-top: 22px;
 }
 #top-jumbo .left-side .info-container .email-area .far {
   font-size: 2rem;
@@ -82,5 +83,5 @@
   padding: 0 40px;
 }
 #top-jumbo .right-side img {
-  width: 100%;
+  width: 120%;
 }
