@@ -1,5 +1,5 @@
 #color-collection{
-    padding: 0 0 100px;
+    padding: 0 0 170px;
 }
 #color-collection .container:after {
   content: '';
@@ -13,11 +13,11 @@
     text-align: center;
 }
 #color-collection .left-side img{
-    width: 115%;
+    width: 101%;
     display: inline-block;
     float: left;
     margin-left: -100px;
-    margin-top: -175px;
+    margin-top: -130px;
 }
 #color-collection .right-side{
     width: 40%;
