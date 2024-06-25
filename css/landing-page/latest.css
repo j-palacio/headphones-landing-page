@@ -116,7 +116,7 @@
   top: -36%;
   left: -12%;
   height: 126%;
-  filter: drop-shadow(5px 24px 14px rgba(0, 0, 0, 0.25))
+  filter: drop-shadow(5px 24px 14px rgba(0, 0, 0, 0.25));
 }
 #latest .body .column:nth-child(2) .bg-square img {
   width: 85%;
@@ -272,4 +272,13 @@
   text-transform: uppercase;
   font-size: 1rem;
   border-radius: 35px;
+}
+/* Laptops Devices */
+@media only screen and (max-width: 1215px) {
+}
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {
+}
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
 }

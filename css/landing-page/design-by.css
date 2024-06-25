@@ -126,3 +126,15 @@
   margin-bottom: 2rem;
   margin-top: 61px;
 }
+/* Laptops Devices */
+@media only screen and (max-width: 1215px) {
+  
+}
+/* Tablet Devices */
+@media only screen and (max-width: 1023px) {
+
+}
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  
+}
