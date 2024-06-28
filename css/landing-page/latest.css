@@ -66,9 +66,9 @@
   text-align: center;
 }
 #latest .body .column:nth-child(1) .bg-square {
-  width: 400px;
-  height: 380px;
-  margin: 37px -15px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -81,9 +81,9 @@
   position: relative;
 }
 #latest .body .column:nth-child(2) .bg-square {
-  width: 400px;
-  height: 380px;
-  margin: 37px auto;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -96,9 +96,9 @@
   position: relative;
 }
 #latest .body .column:nth-child(3) .bg-square {
-  width: 400px;
-  height: 380px;
-  margin: 37px 37px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -111,26 +111,27 @@
   position: relative;
 }
 #latest .body .column:nth-child(1) .bg-square img {
-  width: 115%;
+  width: 105%;
   position: absolute;
   top: -36%;
-  left: -12%;
+  left: -10%;
   height: 126%;
   filter: drop-shadow(5px 24px 14px rgba(0, 0, 0, 0.25));
 }
 #latest .body .column:nth-child(2) .bg-square img {
-  width: 85%;
+  width: 80%;
   height: 124%;
   position: absolute;
-  top: -35%;
-  left: 4%;
+  top: -34%;
+  left: 2%;
   filter: drop-shadow(5px 24px 14px rgba(0, 0, 0, 0.25));
 }
 #latest .body .column:nth-child(3) .bg-square img {
   width: 80%;
+  height: 115%;
   position: absolute;
-  top: -34%;
-  left: 10%;
+  top: -27%;
+  left: 4%;
   filter: drop-shadow(5px 24px 14px rgba(0, 0, 0, 0.25));
 }
 #latest .body .column:nth-child(1) .bg-square .cart {
@@ -275,10 +276,134 @@
 }
 /* Laptops Devices */
 @media only screen and (max-width: 1215px) {
+  #latest .body .column:nth-child(1) .bg-square,
+  #latest .body .column:nth-child(2) .bg-square,
+  #latest .body .column:nth-child(3) .bg-square {
+    margin: 0 auto;
+  }
+  #latest .footer .info-box {
+    padding: 150px 0;
+  }
 }
 /* Tablet Devices */
 @media only screen and (max-width: 1023px) {
+  #latest .body {
+    margin-bottom: -225px;
+  }
+  #latest .header h1 {
+    font-size: 3.5rem;
+  }
+  #latest .header .directions {
+    top: 18px;
+  }
+  #latest .body .column {
+    width: 50%;
+    margin-bottom: 150px;
+  }
+  #latest .footer img {
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    filter: grayscale(100%) invert(100%);
+    opacity: 0.1;
+    transform: rotate(20deg);
+  }
+  #latest .footer .info-box form {
+    width: 80%;
+  }
+  #latest .footer .info-box .input-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+  #latest .footer .info-box .input-area input[type='email'] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 12px;
+  }
+  #latest .footer .info-box .input-area button {
+    background: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) {
+    margin: 0;
+    width: 50%;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) input {
+    margin: 0;
+    width: 80%;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) {
+    margin: 0;
+    width: 50%;
+  }
 }
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
+  #latest .header {
+    text-align: center;
+  }
+  #latest .header h1 {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    max-width: none;
+  }
+  #latest .header .directions {
+    display: inline-block;
+    float: none;
+    position: static;
+    margin: 50px auto;
+    top: 0;
+  }
+  #latest .body .column {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  #latest .body .column:nth-child(1) .bg-square,
+  #latest .body .column:nth-child(2) .bg-square,
+  #latest .body .column:nth-child(3) .bg-square {
+    transform: scale(0.8);
+    margin: 0 auto;
+  }
+  #latest .footer .info-box .input-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+  #latest .footer .info-box .input-area input[type='email'] {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 12px;
+  }
+  #latest .footer .info-box .input-area button {
+    background: #6066f2;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+  #latest .footer .info-box .input-area:nth-child(1) {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #latest .footer .info-box .input-area:nth-child(2) {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+  }
 }
